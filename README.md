@@ -22,7 +22,7 @@ An AI-powered chatbot application to order pizza through text and voice. Users c
 ---
 
 ## 📁 Project Structure
-'''bash
+```bash
 app/
 │
 ├── init.py # App factory/init
@@ -34,4 +34,4 @@ app/
 ├── static/ # Static assets (CSS, JS, audio)
 ├── templates/ # HTML templates (main UI)
 └── run.py # Entry point to start the Flask server
-'''
+```

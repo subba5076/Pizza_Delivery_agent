@@ -6,10 +6,10 @@
 
 | Name                      | GitHub Username      |
 |---------------------------|----------------------|
-| Subrahmanya Rajesh Nayak | [@subba5076](https://github.com/subba5076) |
-| Rim Tafech                | [@rimtafech](https://github.com/rimtafech)         |
-| Mohammad Samaiz Arshed   | [@samaizarshed](https://github.com/samaizarshed)   |
-| Eli                       | [@eli](https://github.com/eli)                     |
+| Nayak, Subrahmanya Rajesh(100003104) | [@subba5076](https://github.com/subba5076) |
+|  Tafech, Rim(100003057)  | [@rimtafech](https://github.com/rimtafech)         |
+| Arshed Mohammad(10000193)| [@samaizarshed](https://github.com/samaizarshed)   |
+| Jallad, Elie(100001841)  | [@eli](https://github.com/eli)                     |
 
 This project was developed as part of our coursework for **Artificial Intelligence** at **SRH Berlin University of Applied Sciences**, under the guidance of **Kristian Rother**.
 

@@ -35,3 +35,24 @@ app/
 ├── templates/ # HTML templates (main UI)
 └── run.py # Entry point to start the Flask server
 ```
+
+---
+
+## 🎯 Features
+
+- **Voice-enabled Chatbot:** Talk to the assistant to place your pizza order.
+- **Customizable Orders:** Choose size, crust, toppings, and more.
+- **Real-Time Feedback:** Chatbot guides you through the order.
+- **Menu Handling:** Reads from `menu.json` to display available items.
+- **Web Interface:** Simple Flask app to interact via browser.
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/subba5076/Pizza_Delivery_agent.git
+cd Pizza_Delivery_agent
+```

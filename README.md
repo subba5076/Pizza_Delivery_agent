@@ -70,7 +70,7 @@ python app/run.py
 🎤 Voice Interaction
 Ensure your system has a microphone enabled.
 
-The app uses speech_recognition and pyttsx3 for speech-to-text and text-to-speech.
+The app uses speech_recognition and pyttsx3 for speech-to-text 
 
 Voice recognition triggers via UI (e.g., mic button).
 

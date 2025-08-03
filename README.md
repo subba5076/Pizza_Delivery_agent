@@ -56,3 +56,28 @@ app/
 git clone https://github.com/subba5076/Pizza_Delivery_agent.git
 cd Pizza_Delivery_agent
 ```
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Run the App
+```bash
+python app/run.py
+```
+
+5000
+
+🎤 Voice Interaction
+Ensure your system has a microphone enabled.
+
+The app uses speech_recognition and pyttsx3 for speech-to-text and text-to-speech.
+
+Voice recognition triggers via UI (e.g., mic button).
+
+📄 License
+MIT License
+
+
+
+

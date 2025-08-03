@@ -7,7 +7,7 @@
 | Name                      | GitHub Username      |
 |---------------------------|----------------------|
 | Nayak, Subrahmanya Rajesh(100003104) | [@subba5076](https://github.com/subba5076) |
-|  Tafech, Rim(100003057)  | [@rimtafech](https://github.com/rimtafech)         |
+|  Tafech, Rim(100003057)  | [@rimtafech](https://github.com/RimTaf)         |
 | Arshed Mohammad(10000193)| [@samaizarshed](https://github.com/samaizarshed)   |
 | Jallad, Elie(100001841)  | [@eli](https://github.com/eli)                     |
 

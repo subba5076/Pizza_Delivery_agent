@@ -1,0 +1,208 @@
+{
+  "restaurant": "Mamma Mia",
+  "currency": "USD",
+  "menu_type": "Italian",
+  "pizzas": [
+    {
+      "id": "MARG",
+      "name": "Margarita Pizza",
+      "description": "Classic margarita sauce, mozzarella cheese, and oregano",
+      "ingredients": ["margarita sauce", "mozzarella cheese", "oregano"],
+      "sizes": [
+        {"size": "S", "price": 7, "crust": ["thin", "normal"]},
+        {"size": "M", "price": 8, "crust": ["thin", "normal"]},
+        {"size": "L", "price": 9, "crust": ["thin", "normal"]}
+      ],
+      "allergens": ["gluten", "dairy"],
+      "dietary": ["vegetarian"]
+    },
+    {
+      "id": "HAWA",
+      "name": "Hawaiian Pizza",
+      "description": "Tomato sauce, mozzarella, ham, and pineapple",
+      "ingredients": ["tomato sauce", "mozzarella cheese", "ham", "pineapple"],
+      "sizes": [
+        {"size": "S", "price": 10, "crust": ["thin", "normal"]},
+        {"size": "M", "price": 12, "crust": ["thin", "normal"]},
+        {"size": "L", "price": 14, "crust": ["thin", "normal"]}
+      ],
+      "allergens": ["gluten", "dairy", "pork"],
+      "dietary": []
+    },
+    {
+      "id": "TERI",
+      "name": "Teriyaki Pizza",
+      "description": "Teriyaki sauce with chicken or shrimp, mozzarella, and vegetables",
+      "ingredients": ["teriyaki sauce", "mozzarella cheese", "red onion", "green pepper", "mushrooms"],
+      "protein_options": [
+        {"name": "chicken", "price_adjustment": 0},
+        {"name": "shrimp", "price_adjustment": 1}
+      ],
+      "sizes": [
+        {"size": "S", "price": 10, "crust": ["thin", "normal"]},
+        {"size": "M", "price": 12, "crust": ["thin", "normal"]},
+        {"size": "L", "price": 14, "crust": ["thin", "normal"]}
+      ],
+      "allergens": ["gluten", "dairy", "shellfish"],
+      "dietary": []
+    },
+    {
+      "id": "RANCH",
+      "name": "Ranch/BBQ Pizza",
+      "description": "Choice of ranch or BBQ sauce with chicken/shrimp and vegetables",
+      "ingredients": ["mozzarella cheese", "red onions", "mushrooms", "olives", "tomato"],
+      "sauce_options": [
+        {"name": "ranch", "price_adjustment": 0},
+        {"name": "BBQ", "price_adjustment": 0}
+      ],
+      "protein_options": [
+        {"name": "chicken", "price_adjustment": 0},
+        {"name": "shrimp", "price_adjustment": 1}
+      ],
+      "sizes": [
+        {"size": "S", "price": 10, "crust": ["thin", "normal"]},
+        {"size": "M", "price": 12, "crust": ["thin", "normal"]},
+        {"size": "L", "price": 14, "crust": ["thin", "normal"]}
+      ],
+      "allergens": ["gluten", "dairy", "shellfish"],
+      "dietary": []
+    },
+    {
+      "id": "SPEC",
+      "name": "Mamma Mia's Special Pizza",
+      "description": "Smoky mango-chipotle sauce with fire-grilled mango chunks and jalapeños",
+      "ingredients": ["smoky mango-chipotle sauce", "mozzarella cheese", "pickled jalapeños", "fire-grilled mango chunks", "corn", "red onion"],
+      "protein_options": [
+        {"name": "chicken", "price_adjustment": 0},
+        {"name": "shrimp", "price_adjustment": 1}
+      ],
+      "sizes": [
+        {"size": "S", "price": 10, "crust": ["thin", "normal"]},
+        {"size": "M", "price": 12, "crust": ["thin", "normal"]},
+        {"size": "L", "price": 14, "crust": ["thin", "normal"]}
+      ],
+      "allergens": ["gluten", "dairy", "shellfish"],
+      "dietary": []
+    }
+  ],
+  "pastas": [
+    {
+      "id": "ALFR",
+      "name": "Alfredo Fettuccine",
+      "description": "Creamy Alfredo sauce with fresh mushrooms and parmesan",
+      "ingredients": ["alfredo sauce", "fresh mushrooms", "parmesan cheese"],
+      "sizes": [
+        {"size": "M", "price": 8},
+        {"size": "L", "price": 10}
+      ],
+      "add_ons": [
+        {"name": "chicken", "price": 3},
+        {"name": "shrimp", "price": 3}
+      ],
+      "allergens": ["gluten", "dairy"],
+      "dietary": []
+    },
+    {
+      "id": "PEST",
+      "name": "Creamy Pesto Fettuccine",
+      "description": "Creamy pesto sauce with fresh mushrooms and parmesan",
+      "ingredients": ["creamy pesto sauce", "fresh mushrooms", "parmesan cheese"],
+      "sizes": [
+        {"size": "M", "price": 8},
+        {"size": "L", "price": 10}
+      ],
+      "add_ons": [
+        {"name": "chicken", "price": 3},
+        {"name": "shrimp", "price": 3}
+      ],
+      "allergens": ["gluten", "dairy", "nuts"],
+      "dietary": ["vegetarian"]
+    },
+    {
+      "id": "TRUF",
+      "name": "Creamy Truffle Fettuccine",
+      "description": "Creamy truffle sauce with fresh mushrooms and parmesan",
+      "ingredients": ["creamy truffle sauce", "fresh mushrooms", "parmesan cheese"],
+      "sizes": [
+        {"size": "M", "price": 8},
+        {"size": "L", "price": 10}
+      ],
+      "add_ons": [
+        {"name": "chicken", "price": 3},
+        {"name": "shrimp", "price": 3}
+      ],
+      "allergens": ["gluten", "dairy"],
+      "dietary": ["vegetarian"]
+    },
+    {
+      "id": "VODKA",
+      "name": "Mamma Mia's Special Pasta",
+      "description": "Creamy pink vodka sauce with San Marzano tomatoes and basil",
+      "ingredients": ["creamy pink vodka sauce", "San Marzano tomatoes", "red onions", "parmesan cheese", "fresh basil"],
+      "sizes": [
+        {"size": "M", "price": 8},
+        {"size": "L", "price": 10}
+      ],
+      "add_ons": [
+        {"name": "chicken", "price": 3},
+        {"name": "shrimp", "price": 3}
+      ],
+      "allergens": ["gluten", "dairy", "alcohol"],
+      "dietary": [],
+      "notes": "Contains alcohol (vodka sauce)"
+    }
+    
+  ],
+  "drinks": [
+{
+  "id": "SPRK",
+  "name": "Sparkling Water (San Pellegrino)",
+  "description": "Refreshing Italian sparkling mineral water",
+  "price": 2,
+  "dietary": ["vegan", "gluten-free"]
+},
+{
+  "id": "SBLOOD",
+  "name": "Sanpellegrino Blood Orange",
+  "description": "Sparkling citrus soda made with Italian blood oranges",
+  "price": 2,
+  "dietary": ["vegan", "gluten-free"]
+},
+{
+  "id": "LIMON",
+  "name": "Sanpellegrino Limonata",
+  "description": "Zesty and sweet sparkling lemon soda",
+  "price": 2,
+  "dietary": ["vegan", "gluten-free"]
+},
+{
+  "id": "ESP",
+  "name": "Italian Espresso",
+  "description": "Strong and aromatic traditional Italian espresso",
+  "price": 2,
+  "dietary": ["vegan", "gluten-free"]
+},
+{
+  "id": "ICEC",
+  "name": "Iced Coffee (Italian Style)",
+  "description": "Chilled espresso served over ice, slightly sweetened",
+  "price": 3,
+  "dietary": ["vegan", "gluten-free"]
+}
+],
+
+  
+  "special_requests": {
+    "crust_options": ["thin", "normal"],
+    "spice_levels": ["mild", "medium", "spicy", "extra hot"],
+    "customization": {
+      "max_characters": 200,
+      "examples": ["no onions", "extra sauce", "well done crust", "light cheese"]
+    },
+    "dietary_flags": ["gluten-free", "vegetarian", "vegan", "halal"]
+  },
+  "gluten_free_options": {
+    "pizza_crust": {"available": true, "price_adjustment": 2},
+    "pasta": {"available": true, "substitute": "gluten-free fettuccine", "price_adjustment": 3}
+  }
+}

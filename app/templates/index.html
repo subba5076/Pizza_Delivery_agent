@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mamma Mia Pizza Bot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='logo1.png') }}" />
+</head>
+<body>
+
+  <div class="background-image"></div>
+
+  <header class="header">
+    <img src="{{ url_for('static', filename='logo2.png') }}" alt="Mamma Mia Logo" class="logo" />
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+    <h1>Mamma Mia's Assistant</h1>
+  </header>
+
+  <main class="chat-container">
+    <div id="chat-box" class="chat-box">
+      <div id="stage-indicator" class="stage-indicator"></div>
+      <div id="order-summary" class="order-summary"></div>
+      </div>
+
+    <div class="actions">
+        <button type="button" id="restart-btn">Start Over</button>
+    </div>
+
+    <form id="chat-form" class="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type your message..."
+        autocomplete="off"
+        required
+      />
+      <button type="button" id="mic-button">🎤</button>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

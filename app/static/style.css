@@ -1,0 +1,250 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: transparent;  
+  color: #2c1c13;
+  position: relative;
+}
+
+.background-image {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('bg.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 1;             
+  z-index: -1;
+}
+  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px;
+  background-image: url('wood1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Georgia', serif; 
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+/* Logo next to title, aligned vertically */
+.logo {
+  height: 120px;
+}
+
+.header h1 {
+  font-family: 'Merienda', cursive;
+  font-size: 3rem;
+  color: #ffffff; 
+  margin: 0;
+  letter-spacing: 1.2px;
+  font-weight: 400; 
+}
+
+
+
+  
+  .chat-container {
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .chat-box {
+    height: 450px;
+    border: 1px solid #d8b89f;
+    padding: 10px;
+    overflow-y: auto;
+    background: rgba(255, 250, 240, 0.7); 
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .chat-bubble {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 8px 0;
+    max-width: max-content;
+    color: white; /* Changed text color to white for chat bubbles */
+  }
+  
+  .user-msg {
+    background-color: rgba(138, 168, 103, 0.8); /* Green with 80% opacity for sender */
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  .bot-msg {
+    background-color: rgba(169, 68, 56, 0.9); /* Red with 90% opacity for bot */
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+    white-space: pre-wrap; 
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.4; 
+    word-wrap: break-word;
+  }
+  
+  
+  .chat-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .chat-form button {
+    background-color: #a94438;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .extras {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.75); 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+    color: #2c1c13;
+  }
+  
+  .extras label {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #2c1c13;
+    margin-bottom: 8px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #2c1c13;
+    resize: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  
+  .actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start; 
+    justify-content: center; /* Centered the items within the flex container */
+  }
+  
+  .actions button {
+    padding: 12px; 
+    background-color: #5d7f3d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem; 
+  }
+  
+  #restart-btn {
+    background-color: #a94438; /* Changed to a consistent red/brown from your theme */
+    padding: 8px 12px; 
+    font-size: 0.8rem; 
+    margin-top: -15px; 
+    width: auto; 
+    flex-shrink: 0; 
+    margin-bottom: 10px;
+  }
+
+  #restart-btn:hover {
+    background-color: #c97f30; /* Adjusted hover color for consistency */
+  }
+  
+  .menu-section {
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    background-color: rgba(240, 230, 220, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .menu-section-header {
+    font-family: 'Georgia', serif;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #5d7f3d;
+    border-bottom: 2px solid #5d7f3d;
+    padding-bottom: 5px;
+  }
+  
+  .menu-item-btn {
+    display: inline-block;
+    margin: 6px 8px 6px 0;
+    padding: 10px 18px;
+    background-color: #a94438;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+  }
+  
+  .menu-item-btn:hover {
+    background-color: #c97f30;
+  }
+  
+  .done-order-btn {
+    display: block;
+    margin: 25px auto 10px auto; 
+    padding: 12px 40px; 
+    background-color: #5d7f3d; 
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .done-order-btn:hover {
+    background-color: #8aa867; 
+  }
+  
+.interactive-menu-container {
+  margin: 15px auto; 
+  padding: 15px;
+  background: rgba(255, 250, 240, 0.9); 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+  width: 95%; 
+  max-width: 600px; 
+}
+
+/* Ensure menu sections and items within this container look good */
+.interactive-menu-container .menu-section {
+    background-color: rgba(240, 230, 220, 0.9); 
+    box-shadow: none; 
+}

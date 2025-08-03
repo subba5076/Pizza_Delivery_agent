@@ -6,7 +6,7 @@
 
 | Name                      | GitHub Username      |
 |---------------------------|----------------------|
-| Subrahmanya Rajesh Nayak | [@subrahmanyaeu](https://github.com/subrahmanyaeu) |
+| Subrahmanya Rajesh Nayak | [@subba5076](https://github.com/subrahmanyaeu) |
 | Rim Tafech                | [@rimtafech](https://github.com/rimtafech)         |
 | Mohammad Samaiz Arshed   | [@samaizarshed](https://github.com/samaizarshed)   |
 | Eli                       | [@eli](https://github.com/eli)                     |

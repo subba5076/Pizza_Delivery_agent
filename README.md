@@ -11,7 +11,7 @@
 | Mohammad Samaiz Arshed   | [@samaizarshed](https://github.com/samaizarshed)   |
 | Eli                       | [@eli](https://github.com/eli)                     |
 
-This project was developed as part of our coursework for **[Artificial Intelligence]** at **SRH Berlin University of Applied Sciences**, under the guidance of **[Kristian Rother]**.
+This project was developed as part of our coursework for **Artificial Intelligence** at **SRH Berlin University of Applied Sciences**, under the guidance of **Kristian Rother**.
 
 ---
 

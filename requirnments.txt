@@ -1,0 +1,9 @@
+Flask
+google-generativeai
+whisper
+openai-whisper
+torch
+pyaudio
+SpeechRecognition
+markdown
+uuid

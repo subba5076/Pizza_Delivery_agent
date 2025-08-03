@@ -66,7 +66,6 @@ Run the App
 python app/run.py
 ```
 
-5000
 
 🎤 Voice Interaction
 Ensure your system has a microphone enabled.

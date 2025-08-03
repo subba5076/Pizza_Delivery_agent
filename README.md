@@ -9,7 +9,7 @@
 | Nayak, Subrahmanya Rajesh(100003104) | [@subba5076](https://github.com/subba5076) |
 |  Tafech, Rim(100003057)  | [@rimtafech](https://github.com/RimTaf)         |
 | Arshed Mohammad(10000193)| [@samaizarshed](https://github.com/samaizarshed)   |
-| Jallad, Elie(100001841)  | [@eli](https://github.com/eli)                     |
+| Jallad, Elie(100001841)  | [@eli](https://github.com/El3ctroactive)                     |
 
 This project was developed as part of our coursework for **Artificial Intelligence** at **SRH Berlin University of Applied Sciences**, under the guidance of **Kristian Rother**.
 
